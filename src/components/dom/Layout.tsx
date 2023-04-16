@@ -30,6 +30,8 @@ const Layout = ({ children }) => {
         }}
         eventSource={ref}
         eventPrefix='client'
+        shadows
+        camera={{ position: [2, 2, 5] }}
       />
     </div>
   )
